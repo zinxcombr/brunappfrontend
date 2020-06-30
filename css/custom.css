@@ -1,12 +1,13 @@
-section { border: 2px dotted #000; }
+section { border: 2px solid #E84A5F; margin-top: 2rem; padding-top: 2em; padding-bottom: 2em;}
 
 .pull-right {
 	float: right; position: absolute; top: 5px; right: 10px
 }
-
-
-
-
+.card-header { background: #E84A5F; color: white; font-weight: bold; }
+.card-body { background: #f1dee1;  }
+ion-icon { color:  #45171D; }
+h1 { border-bottom: 1px solid #ccc; margin-bottom: 2rem; }
+.form-gratidao { padding: 2rem; background-color: red; }
 
 
 
@@ -177,3 +178,8 @@ div.iconpicker.right .table-icons {
 .list-group input[type="radio"]:checked + .list-group-item:before {
   color: inherit;
 }
+
+
+
+
+

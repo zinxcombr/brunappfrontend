@@ -44,7 +44,9 @@
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+        <button id="menu-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="menu-toggle" aria-controls="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -79,17 +81,17 @@
           <form class="form-inline">
             <div class="form-group mb-2">
               <label for="inputPassword2" class="sr-only">Anotação</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="O que quer anotar?">
+              <input type="" class="form-control" id="inputPassword2" placeholder="O que quer anotar?">
             </div>
             <button type="submit" class="btn btn-primary mb-2 mx-sm-3">Criar</button>
           </form>
 
-          <div class="row"><div class="col">Fixas</div></div>
+          <div class="row"><div class="col h6">Fixas</div></div>
           <div class="row">
-                                  <div class="col-4">
+                                  <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 1 Fixa</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -99,10 +101,10 @@
               </div>
             </div>
           </div>
-                                <div class="col-4">
+                                <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 2 Fixa</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -112,10 +114,10 @@
               </div>
             </div>
           </div>
-                                <div class="col-4">
+                                <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 3 Fixa</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -126,12 +128,12 @@
             </div>
           </div>
           </div>
-          <div class="row"><div class="col">Outras</div></div>
+          <div class="row mt-4"><div class="col h6">Outras</div></div>
                     <div class="row">
-                                  <div class="col-4">
+                                  <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 4</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart-outline"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -141,10 +143,10 @@
               </div>
             </div>
           </div>
-                                <div class="col-4">
+                                <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 5</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart-outline"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -154,10 +156,10 @@
               </div>
             </div>
           </div>
-                                <div class="col-4">
+                                <div class="col-md-4">
                         <div class="card">
               <div class="card-header">
-                <p class="card-title" data-editable>Special title treatment</p>
+                <p class="card-title" data-editable>Nota 6</p>
                 <div class="pull-right">
                   <a href="#"><ion-icon name="heart-outline"></ion-icon></a><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><ion-icon name="trash-outline"></ion-icon></i></a>
                 </div>
@@ -190,7 +192,7 @@
         Tem certeza que quer deletar o Item ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
         <button type="button" class="btn btn-danger">Sim</button>
       </div>
     </div>
