@@ -5,7 +5,7 @@ section { border: 2px solid #E84A5F; margin-top: 2rem; padding-top: 2em; padding
 
 /* Para botao de deletar */
 .pull-right {
-	float: right; position: absolute; top: 5px; right: 10px
+	float: right; position: absolute; top: 5px; right: 10px;
 }
 
 /* Cabecalhos dos Cards */
