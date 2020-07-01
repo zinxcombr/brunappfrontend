@@ -1,125 +1,34 @@
+/* My Custom CSS */
+
+/* Encobre as tags section com core rosa e padding */
 section { border: 2px solid #E84A5F; margin-top: 2rem; padding-top: 2em; padding-bottom: 2em;}
 
+/* Para botao de deletar */
 .pull-right {
 	float: right; position: absolute; top: 5px; right: 10px
 }
+
+/* Cabecalhos dos Cards */
 .card-header { background: #E84A5F; color: white; font-weight: bold; }
+
+/* Corpo dos Cards */
 .card-body { background: #f1dee1;  }
+
+/* Cor dos Icones de Deletar e Favoritar */
 ion-icon { color:  #45171D; }
+
+/* H1´s */
 h1 { border-bottom: 1px solid #ccc; margin-bottom: 2rem; }
-.form-gratidao { padding: 2rem; background-color: red; }
-.fas.active{border:2px solid #ccc;}
 
-
-
-
-
-
-@media (max-width:575px) {
-    .display-4 {
-        font-size: 1.5rem;
-    }
-    .day h5 {
-        background-color: #f8f9fa;
-        padding: 3px 5px 5px;
-        margin: -8px -8px 8px -8px;
-    }
-    .date {
-        padding-left: 4px;
-    }
+/* Tarefas do dias Ckecked Overline */
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
 }
 
-@media (min-width: 576px) {
-    .day {
-        height: 14.2857vw;
-    }
-}
-
-
+/* Encobre cada tarefa em Tarefas do Dias */
 .tarefas {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*!========================================================================
-* File: bootstrap-iconpicker.css v1.10.0 by @victor-valencia
-* https://victor-valencia.github.com/bootstrap-iconpicker
-* ========================================================================
-* Copyright 2013-2018 Victor Valencia Rico.
-* Licensed under MIT license.
-* https://github.com/victor-valencia/bootstrap-iconpicker/blob/master/LICENSE
-* ========================================================================
-*/
-
-.iconpicker .caret {
-    margin-left: 10px !important;
-}
-
-.iconpicker {
-    min-width: 60px;
-}
-
-.iconpicker input.search-control {
-    margin-bottom: 6px;
-    margin-top: 6px;
-}
-
-div.iconpicker.left .table-icons {
-    margin-right: auto;
-}
-
-div.iconpicker.center .table-icons {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.iconpicker.right .table-icons {
-    margin-left: auto;
-}
-
-.table-icons .btn {
-    min-height: 30px;
-    min-width: 35px;
-    text-align: center;
-    padding: 0;
-    margin: 2px;
-}
-
-.table-icons td {
-    min-width: 39px;
-}
-
-.popover {
-    max-width: inherit !important;
-}
-
-.iconpicker-popover {
-  z-index: 1050 !important;
-}
-
-.iconpicker-popover .search-control {
-    margin-bottom: 6px;
-    margin-top: 6px;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 

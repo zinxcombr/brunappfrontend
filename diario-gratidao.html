@@ -2,24 +2,18 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title></title>
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
-
-  <!-- Custom styles for Anotações -->
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
   <link href="css/custom.css" rel="stylesheet">
-    
-
 </head>
 
 <body>
@@ -71,82 +65,96 @@
 
       <div class="container-fluid">
 
-    <section>
-      <div class="container">
-        <div class="row"><div class="col"><h1>Diário de Gratidão</h1></div></div>
-        <div class="row">
-          <div class="col-12">
-
-<div>
-          <form class="form-inline mb-4">
-            <div class="form-group mb-2">
-              <label for="inputPassword2" class="sr-only">Objetivo</label>
-              <input class="form-control" id="inputPassword2" placeholder="Sou grato hoje por...">
-            </div>
-
-            <button type="submit" class="btn btn-primary mb-2 mx-sm-3">Criar</button>
-          </form>
-        </div>
-
-
-
-<div class="row">
-  <div class="col-md-4 align-self-center ">
-  
-  <span>Escolha uma data:</span>  
-<div class="d-flex" class="h6"><input type="date" class="form-control" id="" placeholder=""></div>
-
-
-  </div>
-
-  <div class="col-md-8">
-    <div class="card">
-              <div class="card-header">
-                <p class="card-title">Veja sua gratidão desse dia:</p>
-              </div>
-              <div class="card-body">
-                <p class="text-danger">Nenhum registro encontrado para 03/04/2020.</p>
-                <p class="card-text" data-editable-2>Adicionar um registro...</p>
-              </div>
-            </div>
-  </div>
-</div>
-  
-
-                    
-<div class="row">
-  <div class="col-12">
-    <p class="h5">Log de Registros:</p><small>Clique para ver ou alterar</small>
-    <ul>
-      <a href="#"><li>01/02/2020</li></a><a href="#"><li>01/02/2020</li></a><a href="#"><li>01/02/2020</li></a><a href="#"><li>01/02/2020</li></a><a href="#"><li>01/02/2020</li></a><a href="#"><li>01/02/2020</li></a>
-    </ul>
-
-
-    <nav aria-label="...">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active" aria-current="page">
-      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Próxima</a>
-    </li>
-  </ul>
-</nav>
-  </div>
-</div>
 
 
 
 
-        </div>
-        </div>
+<!-- Section 1 START -->
+<section>
+   <div class="container">
+      <div class="row">
+         <div class="col">
+            <h1>Diário de Gratidão</h1>
+         </div>
       </div>
-    </section>
+      <div class="row">
+         <div class="col-12">
+            <div>
+               <form class="form-inline mb-4">
+                  <div class="form-group mb-2">
+                     <label for="inputPassword2" class="sr-only">Objetivo</label>
+                     <input class="form-control" id="inputPassword2" placeholder="Sou grato hoje por...">
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2 mx-sm-3">Criar</button>
+               </form>
+            </div>
+            <div class="row">
+               <div class="col-md-4 align-self-center ">
+                  <span>Escolha uma data:</span>  
+                  <div class="d-flex" class="h6"><input type="date" class="form-control" id="" placeholder=""></div>
+               </div>
+               <div class="col-md-8">
+                  <div class="card">
+                     <div class="card-header">
+                        <p class="card-title">Veja sua gratidão desse dia:</p>
+                     </div>
+                     <div class="card-body">
+                        <p class="text-danger">Nenhum registro encontrado para 03/04/2020.</p>
+                        <p class="card-text" data-editable-2>Adicionar um registro...</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <p class="h5">Log de Registros:</p>
+                  <small>Clique para ver ou alterar</small>
+                  <ul>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                     <a href="#">
+                        <li>01/02/2020</li>
+                     </a>
+                  </ul>
+                  <nav aria-label="...">
+                     <ul class="pagination">
+                        <li class="page-item disabled">
+                           <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                           <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                           <a class="page-link" href="#">Próxima</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Section 2 END -->
+
+
+
+
 
       </div>
     </div>
@@ -158,62 +166,11 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
-  <!-- Custom JS for Dashboard -->
-  </script>
+  <script src="vendor/custom/menu-toggle.js"></script>
+  <!-- Custom JS for Diário de Gratidão -->
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-  <script type="text/javascript">
-
-$('body').on('click', '[data-editable]', function(){
-  
-  var $el = $(this);
-              
-  var $input = $('<input/>').val( $el.text() );
-  $el.replaceWith( $input );
-  
-  var save = function(){
-    var $p = $('<p data-editable />').text( $input.val() );
-    $input.replaceWith( $p );
-  };
-  
-  $input.one('blur', save).focus();
-  
-});
-
-
-$('body').on('click', '[data-editable-2]', function(){
-  
-  var $el = $(this);
-              
-  var $input = $('<textarea/>').val( $el.text() );
-  $el.replaceWith( $input );
-  
-  var save = function(){
-    var $p = $('<p data-editable />').text( $input.val() );
-    $input.replaceWith( $p );
-  };
-  
-  $input.one('blur', save).focus();
-  
-});
-
-
-
-
-  </script>
-
-
-<script type="text/javascript">
-  
-</script>
+  <script src="vendor/custom/data-editable.js"></script>
 
 </body>
 
