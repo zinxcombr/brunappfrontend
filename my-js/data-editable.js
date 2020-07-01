@@ -1,4 +1,4 @@
-
+/* p to input */
     $('body').on('click', '[data-editable]', function(){
   
   var $el = $(this);
@@ -16,6 +16,8 @@
 });
 
 
+
+/* p to textbox */
 $('body').on('click', '[data-editable-2]', function(){
   
   var $el = $(this);

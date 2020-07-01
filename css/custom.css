@@ -25,14 +25,17 @@ input[type=checkbox]:checked + label.strikethrough{
   text-decoration: line-through;
 }
 
-/* Encobre cada tarefa em Tarefas do Dias */
-.tarefas {
-  margin-bottom: 1rem;
-}
+/* Envolve a coluna de Citacao do dia */
+.citacao-col { border-left: 3px solid #ccc; }
 
+/* Envolve a coluna de Tarefas do Dia */
+.tarefas-col { background-color: #ECF9FFFF; }
 
+/* Encobre cada tarefa em Tarefas */
+.tarefas { margin-bottom: 1rem; }
 
-
+/* Div do Icone Escolhido */
+.escolha-icone { padding: 2.5rem; background: #fff; border: 1px solid #ccc; }
 
 
 
