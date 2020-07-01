@@ -8,7 +8,7 @@ section { border: 2px solid #E84A5F; margin-top: 2rem; padding-top: 2em; padding
 ion-icon { color:  #45171D; }
 h1 { border-bottom: 1px solid #ccc; margin-bottom: 2rem; }
 .form-gratidao { padding: 2rem; background-color: red; }
-
+.fas.active{border:2px solid #ccc;}
 
 
 
@@ -125,59 +125,6 @@ div.iconpicker.right .table-icons {
 
 
 
-
-
-.list-group-item {
-  user-select: none;
-}
-
-.list-group input[type="checkbox"] {
-  display: none;
-}
-
-.list-group input[type="checkbox"] + .list-group-item {
-  cursor: pointer;
-}
-
-.list-group input[type="checkbox"] + .list-group-item:before {
-  content: "\2713";
-  color: transparent;
-  font-weight: bold;
-  margin-right: 1em;
-}
-
-.list-group input[type="checkbox"]:checked + .list-group-item {
-  background-color: #0275D8;
-  color: #FFF;
-}
-
-.list-group input[type="checkbox"]:checked + .list-group-item:before {
-  color: inherit;
-}
-
-.list-group input[type="radio"] {
-  display: none;
-}
-
-.list-group input[type="radio"] + .list-group-item {
-  cursor: pointer;
-}
-
-.list-group input[type="radio"] + .list-group-item:before {
-  content: "\2022";
-  color: transparent;
-  font-weight: bold;
-  margin-right: 1em;
-}
-
-.list-group input[type="radio"]:checked + .list-group-item {
-  background-color: #0275D8;
-  color: #FFF;
-}
-
-.list-group input[type="radio"]:checked + .list-group-item:before {
-  color: inherit;
-}
 
 
 
