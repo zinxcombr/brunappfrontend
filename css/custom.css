@@ -1,7 +1,7 @@
 /* My Custom CSS */
 
 /* Encobre as tags section com core rosa e padding */
-section { border: 2px solid #E84A5F; margin-top: 2rem; padding-top: 2em; padding-bottom: 2em;}
+section { margin-top: 2rem; padding-top: 2em; padding-bottom: 2em;}
 
 /* Para botao de deletar */
 .pull-right {
