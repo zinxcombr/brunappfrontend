@@ -41,4 +41,21 @@ input[type=checkbox]:checked + label.strikethrough{
 
 
 
+.logo 
+	.icon {
+		float: left;
+		height: 50px;
+		margin-right: 5px;
+	}
+	.logo span {
+	    top: 10px;
+	    position: relative;
+	    font-weight: bold;
+	}
+	.logo small {
+		color: $primary-3;
+	    top: 15px;
+	    position: relative;
+	}
+
 
